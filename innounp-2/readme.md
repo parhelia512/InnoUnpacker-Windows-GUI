@@ -1,8 +1,11 @@
-### Inno Setup Unpacker 2.67 - Console version
+### Inno Setup Unpacker - Console version
 
 #### Unpacker for installations made by Inno Setup
 
-#### Supports Inno Setup versions 2.0.7 to 6.7.3
+#### The stable version 2.67 supports Inno Setup versions 2.0.7 to 6.7.3
+
+#### New: Beta version for Inno Setup 7
+
 ##### Branch of the project on [SourceForge](http://sourceforge.net/projects/innounp)
 
 [Inno Setup](http://www.jrsoftware.org/isinfo.php) is a popular program
@@ -22,7 +25,9 @@ were added, as well as exit codes to support the use in batch files.
 
 The install script is saved in UTF-8 format, optionally in default encoding.
 
-[Application download](https://github.com/jrathlev/InnoUnpacker-Windows-GUI/tree/master/innounp-2/bin)
+[**Download stable version 2.67.9**](https://github.com/jrathlev/InnoUnpacker-Windows-GUI/tree/master/innounp-2/bin)
+
+[**Download version 2.70-beta**](https://www.rathlev-home.de/index-e.html?tools/download/innounp-270.zip)
 
 [Home page](https://www.rathlev-home.de/index-e.html?tools/prog-e.html#unpack)
 
