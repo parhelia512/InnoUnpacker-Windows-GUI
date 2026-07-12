@@ -476,7 +476,8 @@ type
 
 { ---------------------------------------------------------------- }
 {$EXTERNALSYM GetFileSizeEx}
-function GetFileSizeEx(hFile: THandle; lpFileSize : pointer): BOOL; stdcall;
+function GetFileSizeEx(hFile: THandle; out lpFileSize : Large_Integer): BOOL; stdcall;
+//function GetFileSizeEx(hFile: THandle; lpFileSize : pointer): BOOL; stdcall;
 
 {$EXTERNALSYM ConvertStringSidToSid}
 function ConvertStringSidToSid (lpStringSid: PChar; var Sid: PSID): BOOL; stdcall;

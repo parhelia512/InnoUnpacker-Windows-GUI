@@ -9,7 +9,7 @@
    @author(Lars B. Dybdahl and others)
    @author(Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de))
    @created()
-   @lastmod(June 2025)
+   @lastmod(April 2026)
 *)
 
 unit GnuGetText;

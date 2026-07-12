@@ -98,8 +98,8 @@ Source: "..\innounp-2\docs\innounp.htm"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\innounp-2\docs\innounp.css"; DestDir: "{app}"; Flags: ignoreversion
 ;Source: "..\Release\Win32\locale\*.mo"; DestDir: "{app}\locale"; Flags: recursesubdirs ignoreversion restartreplace
 ;Source: "..\Release\Win32\language.cfg"; DestDir: "{app}"; Flags: recursesubdirs ignoreversion restartreplace
-Source: "..\InnoUnpack.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\changelog.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\Docs\InnoUnpack.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\Docs\\changelog.txt"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\..\Common\license-*.rtf"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\inno-unpacker-2.ico"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\inno-unpacker-u-2.ico"; DestDir: "{app}"; Flags: ignoreversion

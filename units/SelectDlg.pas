@@ -237,7 +237,7 @@ function TSelectDialog.Execute (const APos : TPoint;
                                 PreSelection   : integer = -1;
                                 const DefaultButton : string = '') : integer;
 var
-  w,h,dh,i,j,n,nr,nl,k,l,bw,ppi,tw,tl : integer;
+  i : integer;
 begin
   if ATitle.IsEmpty then Caption:=LoadResString(Captions[DlgType])
   else Caption:=ATitle;
@@ -299,8 +299,10 @@ function SelectOption (const ACaption : string;
                        PreSelection   : integer = -1;
                        const DefaultButton : string = '') : integer;
 begin
+  if not assigned(SelectDialog)then SelectDialog:=TSelectDialog.Create(Application);
   Result:=SelectOption('',ACaption,DlgType,ACaptionFormat,AButtons,
     AOption,ButtonWidth,PreSelection,DefaultButton);
+  FreeAndNil(SelectDialog);
   end;
 
 end.

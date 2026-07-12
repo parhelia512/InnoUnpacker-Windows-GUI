@@ -180,6 +180,7 @@ type
     DisplayMode           : TDisplayMode;
     ViewMode              : TViewMode;
     Languages             : TLanguageList;
+    mp                    : TRect;
     procedure ChangeStyle (dm : TDisplayMode);
     procedure UpdateView;
     procedure UpdateShowText (GoBottom : boolean);
@@ -287,12 +288,14 @@ begin
     end;
   IniName:=Erweiter(s,PrgName,IniExt);
   with TUnicodeIniFile.CreateForRead(IniName) do begin
-    Left:=ReadInteger(CfgSekt,iniLeft,Left);
-    Top:=ReadInteger(CfgSekt,iniTop,Top);
+    with mp do begin
+      Left:=ReadInteger(CfgSekt,iniLeft,Left);
+      Top:=ReadInteger(CfgSekt,iniTop,Top);
+      Width:=ReadInteger(CfgSekt,iniWdt,ClientWidth);
+      Height:=ReadInteger(CfgSekt,iniHgt,ClientHeight);
+      end;
     DisplayMode:=TDisplayMode(ReadInteger(CfgSekt,IniDispMode,0));
     UseReg:=ReadBool(CfgSekt,IniRegional,false);
-    ClientWidth:=ReadInteger(CfgSekt,iniWdt,ClientWidth);
-    ClientHeight:=ReadInteger(CfgSekt,iniHgt,ClientHeight);
     UnpProg:=ReadString(CfgSekt,iniUnp,'');
 //    UseFilelist:=ReadBool(CfgSekt,iniFileList,false);
     Free;
@@ -356,6 +359,10 @@ with pbShowText do if sbVert.Visible and ClientRect.Contains(ScreenToClient(Mous
 
 procedure TMainForm.FormShow(Sender: TObject);
 begin
+  Left:=mp.Left;
+  Top:=mp.Top;
+  ClientWidth:=mp.Width;
+  ClientHeight:=mp.Height;
   with bbInfo do begin
     Glyph:=nil;
     ilStat.GetBitmap(integer(StylesEnabled),Glyph);

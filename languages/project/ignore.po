@@ -10,3 +10,9 @@ msgstr ""
 msgid "Tahoma"
 msgstr ""
 
+#  Doesn't have any letters
+#. MainForm.pmMain.N1.Caption
+#: UnpackMain.dfm:2215
+msgid "-"
+msgstr ""
+
