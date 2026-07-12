@@ -1158,7 +1158,6 @@ begin
     else begin
       WriteNormalLine(ExtSp('Inno Setup archive:',TextAlign),ExtractFilename(SetupFileName));
       try
-        OutDir:='e:\Butest\BuTest-lang\Dies ist ein besonders langer Verzeichnisname\Dies ist ein besonders langer Verzeichnisname\Dies ist ein besonders langer Verzeichnisname\'+'Dies ist ein besonders langer Verzeichnisname\Dies ist ein besonders langer Verzeichnisname\Bilder\Flaggen\test\';
         if OutDir<>'' then begin
           MakeDir(OutDir);
 //          SetCurrentDir(OutDir);
