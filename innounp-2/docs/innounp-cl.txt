@@ -5,6 +5,11 @@ Inno Setup Unpacker
 Revision history:
 -----------------
 
+2.67.10 (2026-07-11)
+------
+  - Added: unpacking to long paths (> MAX_PATH)
+  - Fixed: setups with DiskSliceSize > MaxCardinal = 4294967295
+
 2.67.9 (2026-04-27)
 ------
   - Changed: internal processing of images to resolve code page issues
