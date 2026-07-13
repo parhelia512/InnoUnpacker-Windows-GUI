@@ -5,6 +5,15 @@ Windows Unpacker GUI for Inno setup files
 Revision history:
 -----------------
 
+2.2.11 (2026-07-13)
+--------------------
+  - Update of "innounp.exe" to 2.67.11
+
+2.2.10 (2026-07-12)
+--------------------
+  - Update of "innounp.exe" to 2.67.10
+  - Fixed: Position and size of main window in dark mode
+
 2.2.9 (2026-04-30)
 ------------------
   - Update of "innounp.exe" to 2.67.9
