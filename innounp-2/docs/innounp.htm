@@ -6,10 +6,10 @@
 
 <body>
 <h3>innounp, the Inno Setup Unpacker</h3>
-<h4>Version 2.67.11 - Unicode </h4>
+<h4>Version 2.70.1 - Unicode </h4>
 <p><b>based on <a href="https://sourceforge.net/projects/innounp/" target="_blank"><i>innounp</i> version 0.50</a> by 
   <a href="https://sourceforge.net/u/ariman_ua/profile/" target="_blank">ariman</a></b><br>
-  Supports Inno Setup versions 2.0.7 through 6.7.3</p>
+  Supports Inno Setup versions 2.0.7 through 7.0.2</p>
 <p><a href="http://www.jrsoftware.org/isinfo.php">Inno Setup</a> is a popular program
   for making software installations. Unfortunately, there is no official unpacker - the
   only method of getting the files out of the self-extracting executable
@@ -94,14 +94,18 @@ Exit codes: 0 no errors
   file, <tt>program.exe</tt>, is extracted right where you intended to copy it, not several
   directory levels deeper. Note that in order to avoid confusion, files must still be
   specified by their full path names inside the installation.</p>
-  <p>Note that an installation can contain several identical files (possibly under different names). <i>Inno Setup</i>
-  stores only one copy of such files, and by default <i>innounp</i> will also unpack one file. If you want to have
+  <p>Note that an installation can contain several identical files (possibly under different names). Inno Setup
+  stores only one copy of such files, and by default innounp will also unpack one file. If you want to have
   all files that could ever be installed anywhere, regardless of how many identical files this may get you,
   <tt>-a</tt> option will do it.</p>
   <p>If <tt>-m</tt> is specified, the file listing includes <tt>embedded\CompiledCode.bin</tt>
   which is the code made by the RemObjects Pascal Script compiler.</p>
 
 <h2><a name="History"></a>What's new / History</h2>
+<p style="margin-bottom:-15px;"><b>2.70.1</b> <small>(2026-07-21)</small></p>
+<ul>
+  <li>Added support for IS up to 7.0.2 (x86 and x64)</li>
+</ul>
 <p style="margin-bottom:-15px;"><b>2.67.11</b> <small>(2026-07-13)</small></p>
 <ul>
   <li>Added: support for setup files with long paths</li>
@@ -153,7 +157,7 @@ Exit codes: 0 no errors
 </ul>
 <p style="margin-bottom:-15px;"><b>2.67.0</b> <small>(2026-01-10)</small></p>
 <ul>
-  <li>Added: support for IS up to 6.7.3</li>
+  <li>Added: support for IS up to 6.7.1</li>
   <li>Added: option <i>-w</i> to disable UTF-8 encoding of the script</li>
   <li>Fixed: UTF-8 encoding of the setup filename in the comment at the beginning of the script</li>
 </ul>

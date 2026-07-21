@@ -2,7 +2,7 @@
 
 #### Unpacker for installations made by Inno Setup
 
-#### The stable version 2.67 supports Inno Setup versions 2.0.7 to 6.7.3
+#### The version 2.67 supports Inno Setup versions 2.0.7 to 6.7.3
 
 #### The new version 2.70 supports Inno Setup versions 2.0.7 to 7.0.2
 
@@ -25,9 +25,9 @@ were added, as well as exit codes to support the use in batch files.
 
 The install script is saved in UTF-8 format, optionally in default encoding.
 
-[**Download stable version 2.67.11**](https://github.com/jrathlev/InnoUnpacker-Windows-GUI/tree/master/innounp-2/bin)
+[**Download version 2.67.11**](https://github.com/jrathlev/InnoUnpacker-Windows-GUI/tree/master/innounp-2/bin)
 
-[**Download version 2.70.1**](https://www.rathlev-home.de/index-e.html?tools/download/innounp-270.zip)
+[**Download version 2.70.1**](https://github.com/jrathlev/InnoUnpacker-Windows-GUI/tree/master/innounp-2/bin)
 
 [Home page](https://www.rathlev-home.de/index-e.html?tools/prog-e.html#unpack)
 
