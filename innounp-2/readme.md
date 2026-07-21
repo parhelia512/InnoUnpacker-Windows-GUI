@@ -4,7 +4,7 @@
 
 #### The stable version 2.67 supports Inno Setup versions 2.0.7 to 6.7.3
 
-#### New: Beta version for Inno Setup 7
+#### The new version 2.70 supports Inno Setup versions 2.0.7 to 7.0.2
 
 ##### Branch of the project on [SourceForge](http://sourceforge.net/projects/innounp)
 
