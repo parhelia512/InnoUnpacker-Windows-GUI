@@ -2,11 +2,11 @@
 
 #### Unpacker for installations made by Inno Setup
 
-#### The version 2.67 supports Inno Setup versions 2.0.7 to 6.7.3
+#### The version 2.70 supports Inno Setup versions 2.0.7 to 7.0.2
 
-#### The new version 2.70 supports Inno Setup versions 2.0.7 to 7.0.2
+#### The binary of the previous [version 2.67](bin) is still available
 
-##### Branch of the project on [SourceForge](http://sourceforge.net/projects/innounp)
+##### This is a branch of the *innounp* project on [SourceForge](http://sourceforge.net/projects/innounp)
 
 [Inno Setup](http://www.jrsoftware.org/isinfo.php) is a popular program
 for making software installations. *Inno Setup Unpacker* is a console application
